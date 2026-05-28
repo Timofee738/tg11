@@ -1,0 +1,7 @@
+asyncpg
+
+asyncio
+
+pydantic-settings
+
+aiogram
