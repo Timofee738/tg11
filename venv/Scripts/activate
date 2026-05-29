@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\mollb\OneDrive\Рабочий стол\code2\еп\tg11\venv"
+VIRTUAL_ENV="D:\coded\tg11\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

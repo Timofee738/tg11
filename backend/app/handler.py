@@ -1,11 +1,14 @@
 from aiogram import Router
-from handlers.start import start_router
+from aiogram.types import Message
+
+from app.users.handler import users_router
+
 
 def get_handlers_router() -> Router:
     main_router = Router()
 
     main_router.include_routers(
-        start_router
+        users_router
     )
 
     return main_router
