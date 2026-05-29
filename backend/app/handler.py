@@ -1,5 +1,4 @@
 from aiogram import Router
-from aiogram.types import Message
 
 from app.users.handler import users_router
 
